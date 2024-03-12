@@ -31,14 +31,12 @@ body {
     font-size: 14px;
     font-weight: 800;
     letter-spacing: 3px; 
-    text-decoration: underline dotted 4px var(--secondary-color);
-    transition: all ease-in 80ms;
+    transition: all ease-in-out 120ms;
 }
 
-.Navbar .nav-page.active, .nav-page:hover, .nav-company-name:hover {
-    color: var(--accent-color);
-    text-decoration-color: var(--primary-color);
-}
+.Navbar .nav-page:hover, .nav-company-name:hover {
+transform: scale(1.02);
+   }
 
 .Navbar .toggle-button {
     color: rgb(242, 242, 242, 0.8);
@@ -49,20 +47,6 @@ body {
   transition: all ease-in 80ms;
 }
 
-
-.title-row {
-    background-color: var(--secondary-color);
-}
-
-
-.title-col{
-    padding: 0;
-   
-}
-
-.title-img {
-    max-height: 300px;
-}
 
 h1, h2 {
     font-family: 'Carlito', sans-serif;
@@ -109,7 +93,7 @@ p {
     text-align: left;
 }
 
-button {
+button, .Hero button a {
     background-color: var(--secondary-color);
     border-radius: 15px;
     color: var(--primary-color);
@@ -118,6 +102,7 @@ button {
     font-weight: 800;
     letter-spacing: 4px;
     padding: 12px;
+    text-align: center;
     text-transform: uppercase;
     transition: all ease-in 60ms;
 
@@ -138,79 +123,13 @@ li{
 list-style: none;
 }
 
-.section-quote p{
-   background-color: var(--accent-color);
-   border-bottom: solid 2px var(--secondary-color); 
-   color: var(--secondary-color);
-   font-family: 'Quicksand', sans-serif;
-   font-size: 20px;
-   margin-bottom: 10px;
-   padding: 12px;
-   text-align: center;
-}
-
-.row-margin {
-    margin: 0 50px;
-}
-
-.quote-link {
-    font-size: 15px;
-   }
-
-.quote-link, a {
-    color: var(--secondary-color)
-}
-
-.quote-link:hover, a:hover {
-    font-weight: bolder;
-}
-
-.text-standout p {
-    font-size: 18px;
-    font-weight: bold;
-    line-height: 1.5;
-    margin: 0 auto;
-    padding: 10px;
-    text-align: center;
-}
-
-.footer-container {
-    background-color: var(--secondary-color);
-    border-top: solid 5px var(--accent-color);
-    font-family: 'Carlito', sans-serif;
-    max-width: none;
-    padding: 10px; 
-    text-align: center;
-}
-
-.footer-container a, .footer-container p{
-    color: var(--accent-color);
-}
-
-.footer-container i {
-    font-size: 20px;
-    padding-left: 5px;
-    padding-right: 5px;
-    transition: ease-in-out 18ms;
-}
-
-.footer-container i:hover {
-    transform: scale(1.5);
-}
-
-.footer-container p {
-    font-size: 10px;
-    margin-bottom: 0;
-    padding: 4px 10px;
-}
-
 .Hero {
     margin: 0 auto;
     padding: 20px;
    }
 
 .Hero .hero-container {
-    margin: 120px auto 50px;
+    margin: 100px auto 50px;
     max-width: 650px;
 }
 
@@ -258,14 +177,6 @@ list-style: none;
     text-align: left;
 }
 
-.contact-button {
-    margin: 20px auto;
-    max-width: 25%;
-}
-
-.Hero button {
-    margin: 0;
-}
 
 .Hero p {
     color: var(--secondary-color);
@@ -274,8 +185,46 @@ list-style: none;
     padding: 0;
 }
 
+.Hero button {
+    display: block;
+    margin: 35px auto 0;
+}
 
-@media (max-width: 580px) {
+
+.footer-container {
+    background-color: var(--secondary-color);
+    border-top: solid 5px var(--accent-color);
+    font-family: 'Carlito', sans-serif;
+    max-width: none;
+    padding: 10px; 
+    text-align: center;
+}
+
+.footer-container a, .footer-container p{
+    color: var(--accent-color);
+}
+
+.footer-container i {
+    font-size: 20px;
+    padding-left: 5px;
+    padding-right: 5px;
+    transition: ease-in-out 18ms;
+}
+
+.footer-container i:hover {
+    transform: scale(1.5);
+}
+
+.footer-container p {
+    font-size: 10px;
+    margin-bottom: 0;
+    padding: 4px 10px;
+}
+
+
+
+
+@media (max-width: 650px) {
 
     
     h3 {
@@ -287,33 +236,18 @@ list-style: none;
         font-size: 18px;
         }
     
-    button {
+    .Hero button a{
         font-size: 11px;
     }
+
+    .Hero {
+        margin: 10px;
+    }
     
-    .row-margin {
-        margin: 0 10px;
-    }
-
-    .footer-container i {
-        font-size: 14px;
-        padding-left: 5px;
-        padding-right: 5px;
-    }
-
-    .footer-container p {
-        font-size: 8px;
-
-    }
-
-.Hero {
-    margin: 10px;
-}
-
     .Hero .hero-container {
         margin: 90px auto 50px;
         padding: 10px 30px;
-      
+        
     }
     .Hero  h1 {
         font-size: 40px;
@@ -321,8 +255,8 @@ list-style: none;
     }
 
     .Hero .teacher-img {
-        max-height: 300px;
-     }
+        max-height: 170px;
+        }
 
     .Hero  h2 {
         font-size: 15px;
@@ -336,6 +270,18 @@ list-style: none;
     .Hero .ratings {
         font-size: 11px;
         margin: 3px auto;
+    }
+
+
+    .footer-container i {
+        font-size: 14px;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+
+    .footer-container p {
+        font-size: 8px;
+
     }
 
 }
