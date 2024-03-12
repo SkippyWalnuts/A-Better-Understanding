@@ -9,6 +9,47 @@ body {
     min-width: 380px;
 }
 
+.Navbar .navbar {
+    background-color: var(--secondary-color);
+    border-bottom: solid 5px var(--accent-color);
+    font-family: 'Carlito', sans-serif;
+   
+}
+
+
+.Navbar .nav-company-name {
+   text-transform: uppercase;
+   
+}
+
+.Navbar .nav-page {
+    margin: 0 10px;
+}
+
+.Navbar .nav-company-name, .nav-page {
+    color: var(--accent-color);
+    font-size: 14px;
+    font-weight: 800;
+    letter-spacing: 3px; 
+    text-decoration: underline dotted 4px var(--secondary-color);
+    transition: all ease-in 80ms;
+}
+
+.Navbar .nav-page.active, .nav-page:hover, .nav-company-name:hover {
+    color: var(--accent-color);
+    text-decoration-color: var(--primary-color);
+}
+
+.Navbar .toggle-button {
+    color: rgb(242, 242, 242, 0.8);
+}
+
+.Navbar button {
+  border: solid 2px rgb(63, 61, 87, 0.6);
+  transition: all ease-in 80ms;
+}
+
+
 .title-row {
     background-color: var(--secondary-color);
 }
@@ -92,10 +133,6 @@ a {
     transition: all ease-in 12ms;
 }
 
-ul {
-    margin: 0 auto;
-    padding: 0;
-}
 
 li{
 list-style: none;
@@ -169,6 +206,7 @@ list-style: none;
 
 .Hero {
     margin: 0 auto;
+    padding: 20px;
    }
 
 .Hero .hero-container {
