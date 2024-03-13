@@ -158,10 +158,6 @@ li{
 
 }
  
-.Hero .teacher-img {
-   max-height: 200px;
-   
-}
 
 .Hero h2 {
     font-size: 20px;
@@ -289,7 +285,7 @@ li{
 
 
 
-@media (max-width: 650px) {
+@media (max-width: 700px) {
 
     
     h3 {
@@ -310,23 +306,19 @@ li{
     }
     
     .Hero .hero-container {
-        margin: 90px auto 50px;
-        padding: 10px 30px;
+        max-width: 500px;
+        padding: 10px;
         
     }
     .Hero  h1 {
-        font-size: 40px;
+        font-size: 35px;
         
     }
 
     .Hero .bridge-icon {
-        font-size: 35px;
+        font-size: 30px;
     
     }
-
-    .Hero .teacher-img {
-        max-height: 170px;
-        }
 
     .Hero  h2 {
         font-size: 15px;
