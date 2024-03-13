@@ -80,7 +80,7 @@ h5 {
     text-align: center;
 }
 
-p, .text-standout {
+p, a, .text-standout {
    color: var(--secondary-color);
    font-family: 'Quicksand', sans-serif;
    }
@@ -130,7 +130,7 @@ li{
     padding: 20px;
    }
 
-.About, .TakePart {
+.About, .TakePart, .Packages, .Terms {
     margin: 60px auto;
     padding: 0 0 50px;
 }
@@ -249,8 +249,7 @@ li{
      font-weight: bold;
      line-height: 1.5;
      margin: 0 auto;
-     padding: 10px;
-    text-align: center;
+     text-align: center;
  }
 
 
