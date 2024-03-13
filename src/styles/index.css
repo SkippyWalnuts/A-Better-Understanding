@@ -196,6 +196,56 @@ list-style: none;
     margin: 25px auto 0;
 }
 
+.title-row {
+    background-color: var(--secondary-color);
+}
+
+
+.title-col{
+    padding: 0;
+   
+}
+
+.title-img {
+    max-height: 300px;
+}
+
+.section-quote p{
+    background-color: var(--accent-color);
+    border-bottom: solid 2px var(--secondary-color); 
+    color: var(--secondary-color);
+    font-family: 'Quicksand', sans-serif;
+    font-size: 20px;
+    margin-bottom: 10px;
+    padding: 12px;
+    text-align: center;
+ }
+ 
+ .row-margin {
+     margin: 0 50px;
+ }
+ 
+ .quote-link {
+     font-size: 15px;
+    }
+ 
+ .quote-link, a {
+     color: var(--secondary-color)
+ }
+ 
+ .quote-link:hover, a:hover {
+     font-weight: bolder;
+ }
+ 
+ .text-standout p {
+     font-size: 18px;
+     font-weight: bold;
+     line-height: 1.5;
+     margin: 0 auto;
+     padding: 10px;
+     text-align: center;
+ }
+
 
 .footer-container {
     background-color: var(--secondary-color);
@@ -281,6 +331,10 @@ list-style: none;
     .Hero .ratings {
         font-size: 11px;
         margin: 3px auto;
+    }
+
+    .row-margin {
+        margin: 0 10px;
     }
 
 

@@ -1,0 +1,25 @@
+.About {
+    margin: 60px auto;
+    padding: 0 0 50px;
+}
+
+
+
+.About h5 {
+    margin: 30px auto 30px;
+    max-width: 60%;
+}
+
+.About .consultation-details {
+    text-align: center;
+}
+
+
+@media (max-width: 700px) {
+
+
+    .About .consultation-details {
+        text-align: left;
+    }
+
+}
