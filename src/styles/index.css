@@ -93,7 +93,7 @@ p {
     
 }
 
-button, .Hero button a {
+button, .Hero button a, .About button a {
     background-color: var(--secondary-color);
     border-radius: 15px;
     color: var(--primary-color);
@@ -191,7 +191,7 @@ list-style: none;
     text-align: center;
 }
 
-.Hero button {
+.Hero button, .About button {
     display: block;
     margin: 25px auto 0;
 }
@@ -292,7 +292,7 @@ list-style: none;
         font-size: 18px;
         }
     
-    .Hero button a{
+    .Hero button a, .About button a{
         font-size: 11px;
     }
 
