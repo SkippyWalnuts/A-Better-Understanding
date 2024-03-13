@@ -175,7 +175,7 @@ li{
 }
 
 
-.Hero h3 {
+.Hero h3, .Terms h3 {
     color: var(--secondary-color);
     font-size: 18px;
     font-weight: 500;
