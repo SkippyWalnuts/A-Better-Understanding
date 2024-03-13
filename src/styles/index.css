@@ -119,11 +119,13 @@ a {
 }
 
 ul {
+    padding: 0;
     text-align: center;
 }
 
 li{
     list-style: none;
+
 }
 
 .Hero {
@@ -199,7 +201,7 @@ li{
     text-align: center;
 }
 
-.Hero button, .About button, .TakePart button {
+.Hero button, .About button, .TakePart button, .Packages button, .Terms button {
     display: block;
     margin: 25px auto 0;
 }
@@ -299,7 +301,7 @@ li{
         font-size: 18px;
         }
     
-    .Hero button a, .About button a, .TakePart button a {
+    .Hero button a, .About button a, .TakePart button a, .Packages button a, .Terms button a {
         font-size: 11px;
     }
 
