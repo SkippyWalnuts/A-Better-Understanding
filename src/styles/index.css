@@ -5,9 +5,10 @@
 }
 
 body {
-    background: var(--primary-color);
     min-width: 380px;
 }
+
+
 
 .Navbar .navbar {
     background-color: var(--secondary-color);
@@ -48,6 +49,10 @@ font-weight: 800;
   border: solid 2px rgb(63, 61, 87, 0.6);
 }
 
+.Navbar button:hover {
+    box-shadow: 1px 1px 10px var(--accent-color);
+}
+
 
 h1, h2 {
     font-family: 'Carlito', sans-serif;
@@ -74,7 +79,7 @@ h4 {
 h5 {
     background-color: var(--secondary-color);
     border-radius: 2px;
-    color: var(--accent-color);
+    color: var(--primary-color);
     font-family: 'Quicksand', sans-serif;
     font-size: 18px;
     padding: 12px;
@@ -97,7 +102,7 @@ p {
 button, button a {
     background-color: var(--secondary-color);
     border-radius: 15px;
-    color: var(--primary-color);
+    color: var(--accent-color);
     font-family: 'Quicksand', sans-serif;
     font-size: 15px;
     font-weight: 800;
@@ -110,7 +115,7 @@ button, button a {
 }
 
 button:hover {
-    box-shadow: 1px 1px 10px var(--accent-color);
+    box-shadow: 1px 1px 10px var(--secondary-color);
     transform: scale(1.05);
 }
 
@@ -129,11 +134,13 @@ li{
 }
 
 .Hero {
+    background: var(--primary-color);
     margin: 0 auto;
     padding: 20px;
    }
 
 .About, .TakePart, .Packages, .Terms {
+    background: var(--accent-color);
     margin: 60px auto;
     padding: 0 0 50px;
 }
@@ -155,9 +162,7 @@ li{
 .Hero .bridge-icon {
     font-size: 53px;
     font-weight: 600;
-
 }
- 
 
 .Hero h2 {
     font-size: 20px;
@@ -169,7 +174,6 @@ li{
     padding: 15px;
     text-align: center;
 }
-
 
 .Hero h3, .Terms h3 {
     color: var(--secondary-color);
@@ -204,16 +208,15 @@ li{
 
 .title-row {
     background-color: var(--secondary-color);
+    padding: 20px;
 }
-
 
 .title-col{
     padding: 0;
-   
-}
+   }
 
 .title-img {
-    max-height: 300px;
+    max-height: 200px;
 }
 
 .section-quote p{
