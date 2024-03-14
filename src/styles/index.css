@@ -139,7 +139,7 @@ li{
 }
 
 .Hero .hero-container {
-    margin: 100px auto 50px;
+    margin: 90px auto 50px;
     max-width: 650px;
 }
 
@@ -306,17 +306,17 @@ li{
     }
     
     .Hero .hero-container {
-        max-width: 500px;
+        max-width: 400px;
         padding: 10px;
-        
+      
     }
     .Hero  h1 {
-        font-size: 35px;
+        font-size: 30px;
         
     }
 
     .Hero .bridge-icon {
-        font-size: 32px;
+        font-size: 28px;
     
     }
 
