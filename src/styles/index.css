@@ -296,12 +296,13 @@ li{
     p, .section-quote p {
         font-size: 18px;
         }
-    
-    .Hero button a, .About button a, .TakePart button a, .Packages button a, .Terms button a {
-        font-size: 11px;
-    }
 
-    .Hero {
+        button, button a {
+            font-size: 11px;
+            letter-spacing: 3px;       
+        }
+    
+     .Hero {
         margin: 10px;
     }
     
