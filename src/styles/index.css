@@ -235,13 +235,10 @@ li{
  }
  
  .quote-link {
-     font-size: 15px;
+      color: var(--secondary-color); 
+      font-size: 15px;
     }
- 
- .quote-link {
-     color: var(--secondary-color)
- }
- 
+  
  .quote-link:hover, a:hover {
      font-weight: bold;
  }
@@ -296,7 +293,7 @@ li{
     }
 
 
-    p, .section-quote p {
+    p {
         font-size: 18px;
         }
 
@@ -337,6 +334,12 @@ li{
         font-size: 11px;
         margin: 3px auto;
     }
+
+    .section-quote p, .quote-link{
+        font-size: 13px;
+        margin-bottom: 8px;
+
+     }
 
     .text-standout p {
         text-align: left;
