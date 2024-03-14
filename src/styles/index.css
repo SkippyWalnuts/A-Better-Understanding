@@ -220,7 +220,7 @@ li{
 }
 
 .section-quote p{
-    background-color: var(--accent-color);
+    background-color: var(--primary-color);
     border-bottom: solid 2px var(--secondary-color); 
     color: var(--secondary-color);
     font-family: 'Quicksand', sans-serif;
