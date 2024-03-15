@@ -5,6 +5,7 @@
 }
 
 body {
+    background: var(--primary-color);
     min-width: 380px;
 }
 
@@ -134,15 +135,14 @@ li{
 }
 
 .Hero {
-    background: var(--primary-color);
     margin: 0 auto;
     padding: 20px;
    }
 
 .About, .TakePart, .Packages, .Terms {
     background: var(--accent-color);
-    margin: 60px auto;
-    padding: 0 0 50px;
+    margin: 60px auto 0;
+    padding: 0 0 80px;
 }
 
 .Hero .hero-container {
